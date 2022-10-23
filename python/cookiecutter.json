@@ -1,0 +1,18 @@
+{
+  "full_name": "Cloud Based DQ",
+  "email": "info@locp.co.uk",
+  "github_username": "cbdq-io",
+  "project_name": "project_name",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "pkg_name": "{{ cookiecutter.project_slug|replace('-', '') }}",
+  "description": "Project short description.",
+  "version": "0.0.1",
+  "open_source_license": [
+    "MIT license",
+    "BSD license",
+    "ISC license",
+    "Apache Software License 2.0",
+    "GNU General Public License v3",
+    "Not open source"
+  ]
+}
